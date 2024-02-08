@@ -10,10 +10,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelDataReader {
 	
-	//
-	//updates for Nandeesh Sir
-	//
-	//
+	
 
 	public static ArrayList<String> getTestCasesNames() throws EncryptedDocumentException, IOException {
 		FileInputStream fis = new FileInputStream("./src/test/resources/TestData/TestCases1.xlsx");
